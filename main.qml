@@ -22,6 +22,7 @@ Window {
                     mainInterface._textField.background.border.color = "skyblue"
                     var newGoal = Qt.createComponent("GoalsOutput.qml")
                     newGoal.createObject(mainLayout, {_width: mainInterface.width, goalText: mainInterface.textValue.trim() })
+                    _textField.text = ""
                 }else
                 {
                     console.log("Text Field cannot contain less than 2 characters")
