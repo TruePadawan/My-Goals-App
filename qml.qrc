@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainInterface.qml</file>
+        <file>GoalsOutput.qml</file>
+    </qresource>
+</RCC>
