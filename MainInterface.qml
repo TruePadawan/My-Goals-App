@@ -2,7 +2,6 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 
 Item {
-    id: root
     width: 500
     height: 250
     property string textValue: textField.text
